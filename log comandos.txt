@@ -1,0 +1,14 @@
+git clone https://github.com/ManuelBaldomir/Hola-Mundo.git
+echo $null >> README.md
+git add README.md
+git commit -m "Commit inicial"
+git push
+(modificación de README.md en github)
+git pull
+dotnet new console
+echo $null >> Product.cs
+echo $null >> Review.cs
+(se escribe el código)
+git add .
+git commit -m "Commit Final"
+git push
